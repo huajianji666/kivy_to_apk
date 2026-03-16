@@ -8,6 +8,7 @@ source.include_exts = py,png,jpg,kv,atlas#需要打包的文件类型 file types
 version = 0.0.1
 #依赖库,后二为打包需要 The last two are needed for packaging
 requirements = python3,kivy,kivymd,libiconv,libffi
+p4a.options = --add-requirements=sdl2_image==2.6.3
 #icon.filename = icon.png
 #presplash.filename = presplash.png
 #fullscreen = 0
